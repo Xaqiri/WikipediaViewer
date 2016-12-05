@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: auto;
+  margin: auto;
+  background-color: #004;
+  color: #DDD;
+  text-align: center; }
+
+.button {
+  padding: 6px 15px;
+  height: 110%;
+  left: 6px;
+  border: 2px solid #1111ff;
+  background-color: #1111ff; }
+  .button:hover {
+    background-color: #7777ff; }
+
+#title {
+  display: inline-block;
+  box-shadow: 0px 0px 20px #DDD; }
+
+#searchArea {
+  margin-top: 2em;
+  text-align: center;
+  color: #DDD; }
+  #searchArea #searchBar {
+    background-color: #004;
+    padding: 8px 15px;
+    border: 2px solid #1111ff; }
+  #searchArea #searchButton {
+    position: relative; }
+
+#results {
+  margin-top: 5em;
+  color: #DDD; }
+  #results h1 {
+    background-color: #1111ff;
+    margin-top: .25em; }
+    #results h1:hover {
+      background-color: #7777ff; }
+
+/*# sourceMappingURL=wikiviewer.css.map */
