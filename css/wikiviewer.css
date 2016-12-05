@@ -5,7 +5,8 @@ html, body {
   margin: auto;
   background-color: #004;
   color: #DDD;
-  text-align: center; }
+  text-align: center;
+  font-size: 1em; }
 
 .button {
   padding: 6px 15px;
