@@ -56,14 +56,24 @@ a {
   }
 } 
 
+#results { 
+  padding: 1% 2%; 
+}
+
 #resultCard { 
   text-align: justify; 
   color: $fg-color; 
-  background-color: lighten($bg-color, 40%); 
+  //background-color: lighten($bg-color, 40%); 
+  border: 2px solid lighten($bg-color, 40%); 
+  background-color: $bg-color; 
   &:hover { 
     background-color: lighten($bg-color, 60%); 
-    text-decoration: none; 
+    color: darken($fg-color, 80%); 
   } 
+  /*&:hover { 
+    //background-color: lighten($bg-color, 60%); 
+    //text-decoration: none; 
+  } */
   #resultTitle { 
     padding: 0px 5px; 
     font-weight: bold; 
