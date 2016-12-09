@@ -8,8 +8,10 @@ html, body {
   text-align: center; }
 
 .button {
-  padding: 6px 15px;
   height: 110%;
+  width: 30%;
+  padding: 8px 1px;
+  margin: 1px 1px;
   left: 6px;
   border: 2px solid #1111ff;
   background-color: #1111ff; }
@@ -17,27 +19,34 @@ html, body {
     background-color: #7777ff; }
 
 #title {
-  display: inline-block;
-  box-shadow: 0px 0px 20px #DDD; }
+  display: inline-block; }
 
 #searchArea {
   margin-top: 2em;
-  text-align: center;
+  margin-left: 1%;
+  text-align: left;
+  display: inline;
   color: #DDD; }
   #searchArea #searchBar {
     background-color: #004;
+    width: 30%;
+    height: 10%;
     padding: 8px 15px;
-    border: 2px solid #1111ff; }
+    border: 2px solid #1111ff;
+    box-shadow: 0px 0px 20px #1111ff; }
   #searchArea #searchButton {
     position: relative; }
 
 #results {
   margin-top: 5em;
-  color: #DDD; }
+  text-align: left; }
   #results h1 {
+    padding-left: 5px; }
+  #results a, #results h1 {
+    color: #DDD;
     background-color: #1111ff;
     margin-top: .25em; }
-    #results h1:hover {
+    #results a:hover, #results h1:hover {
       background-color: #7777ff; }
 
 /*# sourceMappingURL=wikiviewer.css.map */
