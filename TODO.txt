@@ -1,3 +1,0 @@
-[x] User can search Wikipedia entries in a search box and see the resulting entries 
-[x] User can click a button to see a random Wikipedia entry 
-[x] Fix buttons on mobile 
