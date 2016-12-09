@@ -11,6 +11,10 @@ html, body {
   text-align: center; 
 } 
 
+footer { 
+  margin-top: 10%; 
+}
+
 .button { 
   height: 100%; 
   width: 30%; 
@@ -54,10 +58,10 @@ a {
 
 #resultCard { 
   text-align: justify; 
-  color: $bg-color; 
-  background-color: $fg-color; 
+  color: $fg-color; 
+  background-color: lighten($bg-color, 40%); 
   &:hover { 
-    background-color: darken($fg-color, 40%); 
+    background-color: lighten($bg-color, 60%); 
     text-decoration: none; 
   } 
   #resultTitle { 

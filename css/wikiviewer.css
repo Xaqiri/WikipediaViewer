@@ -7,6 +7,9 @@ html, body {
   color: #DDD;
   text-align: center; }
 
+footer {
+  margin-top: 10%; }
+
 .button {
   height: 100%;
   width: 30%;
@@ -40,10 +43,10 @@ a:hover {
 
 #resultCard {
   text-align: justify;
-  color: #004;
-  background-color: #DDD; }
+  color: #DDD;
+  background-color: #1111ff; }
   #resultCard:hover {
-    background-color: #777777;
+    background-color: #7777ff;
     text-decoration: none; }
   #resultCard #resultTitle {
     padding: 0px 5px;
