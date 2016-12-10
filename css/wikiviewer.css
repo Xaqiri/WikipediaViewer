@@ -8,13 +8,12 @@ html, body {
   text-align: center; }
 
 footer {
-  margin-top: 10%; }
+  margin-top: 2%; }
 
 .button {
   height: 100%;
-  width: 30%;
+  width: 25%;
   padding: 8px 1px;
-  left: 6px;
   border: 2px solid #1111ff;
   background-color: #004; }
   .button:hover {
@@ -25,16 +24,20 @@ footer {
   display: inline-block; }
 
 #searchArea {
-  text-align: center;
-  color: #DDD; }
+  color: #DDD;
+  margin-left: 5%;
+  margin-right: 5%; }
   #searchArea #searchBar {
     background-color: #004;
-    width: 30%;
+    float: left;
+    width: 25%;
     padding: 8px 15px;
     border: 2px solid #1111ff;
     box-shadow: 0px 0px 20px #1111ff; }
   #searchArea #searchButton {
     position: relative; }
+  #searchArea #randomButton {
+    float: right; }
 
 a:link {
   text-decoration: none; }
@@ -42,13 +45,16 @@ a:hover {
   text-decoration: none; }
 
 #results {
-  padding: 1% 2%; }
+  padding: 2% 0%;
+  margin-left: 5%;
+  margin-right: 5%; }
 
 #resultCard {
   text-align: justify;
   color: #DDD;
   border: 2px solid #1111ff;
   background-color: #004;
+  margin-bottom: 1%;
   /*&:hover { 
     //background-color: lighten($bg-color, 60%); 
     //text-decoration: none; 
@@ -57,12 +63,13 @@ a:hover {
     background-color: #7777ff;
     color: #111111; }
   #resultCard #resultTitle {
-    padding: 0px 5px;
+    padding-left: 1%;
+    padding-right: 1%;
     font-weight: bold; }
   #resultCard #resultBody {
     padding-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
     text-indent: 3%; }
 
 /*# sourceMappingURL=wikiviewer.css.map */

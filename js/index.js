@@ -28,7 +28,13 @@ $(document).ready(() => {
   let searchTerm = ''
   let baseQuery = apiURL + '?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=extracts&exintro&explaintext&exsentences=1&exlimit=max&origin=*&gsrsearch='
   let results = []
-  $('#searchButton').on('click', () => {
+  $('#searchBar').keypress((e) => {
+    if (e.keyCode === 13) {
+      e.preventDefault()
+      $('#searchButton').click()
+    }
+  })
+  $('#searchButton').click(() => {
     $('#results').empty()
     searchTerm = $('#searchBar').val()
     if (searchTerm) {

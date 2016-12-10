@@ -12,14 +12,13 @@ html, body {
 } 
 
 footer { 
-  margin-top: 10%; 
+  margin-top: 2%; 
 }
 
 .button { 
   height: 100%; 
-  width: 30%; 
+  width: 25%; 
   padding: 8px 1px; 
-  left: 6px; 
   border: 2px solid lighten($bg-color, 40%); 
   background-color: $bg-color; 
   &:hover { 
@@ -33,17 +32,23 @@ footer {
 } 
 
 #searchArea { 
-  text-align: center; 
   color: $fg-color; 
+  margin-left: 5%; 
+  margin-right: 5%; 
+  //width: 80%; 
   #searchBar { 
     background-color: $bg-color; 
-    width: 30%; 
+    float: left; 
+    width: 25%; 
     padding: 8px 15px; 
     border: 2px solid lighten($bg-color, 40%); 
     box-shadow: 0px 0px 20px lighten($bg-color, 40%); 
   } 
   #searchButton { 
     position: relative; 
+  } 
+  #randomButton { 
+    float: right; 
   } 
 } 
 
@@ -57,7 +62,9 @@ a {
 } 
 
 #results { 
-  padding: 1% 2%; 
+  padding: 2% 0%; 
+  margin-left: 5%; 
+  margin-right: 5%; 
 }
 
 #resultCard { 
@@ -66,6 +73,7 @@ a {
   //background-color: lighten($bg-color, 40%); 
   border: 2px solid lighten($bg-color, 40%); 
   background-color: $bg-color; 
+  margin-bottom: 1%; 
   &:hover { 
     background-color: lighten($bg-color, 60%); 
     color: darken($fg-color, 80%); 
@@ -75,13 +83,14 @@ a {
     //text-decoration: none; 
   } */
   #resultTitle { 
-    padding: 0px 5px; 
+    padding-left: 1%; 
+    padding-right: 1%; 
     font-weight: bold; 
   } 
   #resultBody { 
     padding-bottom: 1%; 
-    padding-left: 1%; 
-    padding-right: 1%; 
+    padding-left: 3%; 
+    padding-right: 3%; 
     text-indent: 3%; 
   }
 } 
