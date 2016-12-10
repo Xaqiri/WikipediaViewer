@@ -12,8 +12,7 @@ footer {
 
 .button {
   height: 100%;
-  width: 25%;
-  padding: 8px 1px;
+  padding: 8px 8px;
   border: 2px solid #1111ff;
   background-color: #004; }
   .button:hover {
@@ -26,23 +25,24 @@ footer {
 #searchArea {
   color: #DDD;
   margin-left: 5%;
-  margin-right: 5%; }
+  text-align: left;
+  position: fixed; }
   #searchArea #searchBar {
     background-color: #004;
-    float: left;
     width: 25%;
-    padding: 8px 15px;
+    padding: 8px 8px;
     border: 2px solid #1111ff;
     box-shadow: 0px 0px 20px #1111ff; }
   #searchArea #searchButton {
     position: relative; }
-  #searchArea #randomButton {
-    float: right; }
 
 a:link {
   text-decoration: none; }
 a:hover {
   text-decoration: none; }
+
+#separator {
+  height: 10%; }
 
 #results {
   padding: 2% 0%;
@@ -55,6 +55,7 @@ a:hover {
   border: 2px solid #1111ff;
   background-color: #004;
   margin-bottom: 1%;
+  overflow: hidden;
   /*&:hover { 
     //background-color: lighten($bg-color, 60%); 
     //text-decoration: none; 
