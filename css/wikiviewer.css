@@ -17,7 +17,8 @@ footer {
   background-color: #004; }
   .button:hover {
     background-color: #7777ff;
-    color: #111111; }
+    color: #111111;
+    box-shadow: 0px 0px 10px #7777ff; }
 
 #title {
   display: inline-block; }
@@ -53,6 +54,7 @@ a:hover {
   text-align: justify;
   color: #DDD;
   border: 2px solid #1111ff;
+  border-radius: 15px;
   background-color: #004;
   margin-bottom: 1%;
   overflow: hidden;
@@ -62,7 +64,8 @@ a:hover {
   } */ }
   #resultCard:hover {
     background-color: #7777ff;
-    color: #111111; }
+    color: #111111;
+    box-shadow: 0px 0px 20px #7777ff; }
   #resultCard #resultTitle {
     padding-left: 1%;
     padding-right: 1%;

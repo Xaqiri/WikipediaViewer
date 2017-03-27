@@ -23,6 +23,7 @@ footer {
   &:hover { 
     background-color: lighten($bg-color, 60%); 
     color: darken($fg-color, 80%); 
+    box-shadow: 0px 0px 10px lighten($bg-color, 60%); 
   } 
 } 
 
@@ -71,12 +72,14 @@ a {
   color: $fg-color; 
   //background-color: lighten($bg-color, 40%); 
   border: 2px solid lighten($bg-color, 40%); 
+  border-radius: 15px; 
   background-color: $bg-color; 
   margin-bottom: 1%; 
   overflow: hidden; 
   &:hover { 
     background-color: lighten($bg-color, 60%); 
     color: darken($fg-color, 80%); 
+    box-shadow: 0px 0px 20px lighten($bg-color, 60%); 
   } 
   /*&:hover { 
     //background-color: lighten($bg-color, 60%); 
